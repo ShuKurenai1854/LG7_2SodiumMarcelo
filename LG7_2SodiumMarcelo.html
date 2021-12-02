@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="MARCELO, Maurizio J.">
+		<meta name="revised" content="1-12-2021">
+		<meta name="keywords" content="">
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			a {
+				text-decoration: none;
+			}
+			a#link_1:link {
+				color: #3333ff;
+				background-color: #000066;
+			}
+			a#link_1:hover {
+				color: #ff33ff;
+				background-color: #660066;
+			}
+			a#link_1:active {
+				color: #ffffff;
+				background-color: #666666;
+			}
+			a#link_1:visited {
+				color: #ff3333;
+				background-color: #660000;
+			}
+			a#link_2:link {
+				color: #3333ff;
+				background-color: #000066;
+			}
+			a#link_2:hover {
+				color: #33ffff;
+				background-color: #006666;
+			}
+			a#link_2:active {
+				color: #ffffff;
+				background-color: #666666;
+			}
+			a#link_2:visited {
+				color: #33ff33;
+				background-color: #006600;
+			}
+			div {
+				border: 1px solid black;
+				width: 100px;
+				height: 100px;
+			}
+			div#div_1:target {
+				color: #ff9999;
+				background-color: #cc0000;
+			}
+			div#div_2:target {
+				color: #99ff99;
+				background-color: #00cc00;
+				border: 10px dotted green;
+			}
+		</style>
+	</head>
+	<body>
+		<a id="link_1" href="#div_1">First Link</a>
+		<a id="link_2" href="#div_2">Second Link</a>
+		<br><br>
+		<div id="div_1">
+			Div 1 here
+		</div>
+		<br>
+		<div id="div_2">
+			Div 2 here
+		</div>
+	</body>
+</html>
